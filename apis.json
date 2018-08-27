@@ -1,0 +1,90 @@
+{
+	"name": "Streadata.io API Gallery - Admin",
+	"description": "This is a repository of admin APIs, self-contained as a Github repository, with HTML and YAML representations of the APIs and their surrounding operations.",
+	"image": "http://template.streamdata.gallery/assets/admin.png",
+	"created": "2018-02-24",
+	"modified": "2018-08-27",
+	"url": "http://admin.streamdata.gallery/apis.json",
+	"specificationVersion": "0.14",
+	"apis": [
+		{
+			"name": "3scale",
+			"x-api-slug": "3scale",
+			"description": "3scales API Management platform gives you the tools you need to take control of your API. Trusted by more customers than any other vendor.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/4-3scale.jpg",
+			"humanURL": "http://3scale.net",
+			"baseURL": "https://su1.3scale.net//",
+			"tags": "Admin",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/admin/master/_listings/3scale/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Reddit",
+			"x-api-slug": "reddit",
+			"description": "Reddit is a community of millions of users engaging in the creation of content and the sharing of conversation across tens of thousands of topics.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/3516-reddit.jpg",
+			"humanURL": "http://www.reddit.com",
+			"baseURL": "https:///",
+			"tags": "Admin",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/admin/master/_listings/reddit/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Respoke",
+			"x-api-slug": "respoke",
+			"description": "Respoke makes it incredibly easy to add real-time communications capabilities to the things you build. Integrate text chat, audio calling, video collaboration, screen sharing, and peer-to-peer data with just a few lines of JavaScript.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/respoke-web-communications-300x101.jpg",
+			"humanURL": "https://www.respoke.io",
+			"baseURL": "https://api.respoke.io/v1/",
+			"tags": "Admin",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/admin/master/_listings/respoke/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Codefresh",
+			"x-api-slug": "codefresh",
+			"description": "Docker Automation and Collaboration for Agile Teams. Codefresh lets dev, QA and product work together on Docker compositions, including CI/CD, manual testing and feature previews.Codefresh enables you to instantly leverage all the benefits of Docker, w...",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28738-codefresh-io.jpg",
+			"humanURL": "https://codefresh.io",
+			"baseURL": "https://g.codefresh.io//api",
+			"tags": "Admin",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/admin/master/_listings/codefresh/openapi.md"
+				}
+			]
+		}
+	],
+	"tags": "Admin",
+	"include": [
+		{
+			"name": "3scale",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/admin/master/_listings/3scale/apis.yaml"
+		},
+		{
+			"name": "Reddit",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/admin/master/_listings/reddit/apis.yaml"
+		},
+		{
+			"name": "Respoke",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/admin/master/_listings/respoke/apis.yaml"
+		},
+		{
+			"name": "Codefresh",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/admin/master/_listings/codefresh/apis.yaml"
+		}
+	]
+}
